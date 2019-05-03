@@ -1,33 +1,29 @@
-.App {
-  text-align: center;
+.timer{
+  font-size: 70px;
+  display:flex;
+  justify-content:center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom:50px;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.statictimer__digital{
+  display:flex;
+  justify-content:center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.statictimer__HMS{
+  display:flex;
+  justify-content:center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.statictimer__HMS__Hour{
+  padding-left:0;
+  padding-right:10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.statictimer__HMS__Minute{
+  padding-left:10px;
+}
+.statictimer__HMS__Second{
+  padding-left:10px;
 }
